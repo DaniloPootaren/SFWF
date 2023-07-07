@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_form_input_texts",
+  "info": {
+    "displayName": "input-text"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_form_input_numbers",
+  "info": {
+    "displayName": "input-number"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "required": true
+    },
+    "min_length": {
+      "type": "integer",
+      "required": true,
+      "default": 5
+    },
+    "max_length": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    }
+  }
+}

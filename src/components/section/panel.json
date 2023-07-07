@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_section_panels",
+  "info": {
+    "displayName": "panel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "choice_selection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input-choice"
+    },
+    "number_selection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input-number"
+    },
+    "phone_selection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input-phone"
+    },
+    "text_selection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input-text"
+    },
+    "panel_title": {
+      "type": "string"
+    }
+  }
+}

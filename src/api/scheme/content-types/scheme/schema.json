@@ -4,7 +4,8 @@
   "info": {
     "singularName": "scheme",
     "pluralName": "schemes",
-    "displayName": "Scheme"
+    "displayName": "Scheme",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,11 +24,17 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "scheme_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::scheme-template.scheme-template"
     }
   }
 }
