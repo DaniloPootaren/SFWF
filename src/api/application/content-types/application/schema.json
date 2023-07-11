@@ -31,6 +31,9 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "application"
+    },
+    "form_data": {
+      "type": "json"
     }
   }
 }
