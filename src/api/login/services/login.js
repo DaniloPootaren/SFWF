@@ -18,7 +18,7 @@ module.exports = () => ({
     try {
       maupassUser = await getMaupassUser({ email, password });
     } catch (e) {
-      throw new Error(e.details);
+      throw new Error(e?.details);
     }
 
     if (maupassUser) {

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_form_input_texts",
   "info": {
-    "displayName": "input-text"
+    "displayName": "input-text",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,9 +10,35 @@
       "type": "string",
       "required": true
     },
-    "required": {
-      "type": "boolean",
-      "required": true
+    "default": {
+      "type": "string"
+    },
+    "maupass": {
+      "type": "enumeration",
+      "enum": [
+        "userName",
+        "name ",
+        "surname",
+        "surnameAtBirth",
+        "gender",
+        "dateOfBirth",
+        "isCitizen ",
+        "passportNumber",
+        "nic",
+        "isTwoFactorEnabled",
+        "phoneNumber ",
+        "fixedLineNumber",
+        "address ",
+        "city ",
+        "country ",
+        "nationality ",
+        "state",
+        "townVillage ",
+        "zipCode",
+        "subLocalityId ",
+        "townVillageId ",
+        "subLocalityName"
+      ]
     }
   }
 }

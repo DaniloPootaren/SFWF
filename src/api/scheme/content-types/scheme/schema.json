@@ -17,30 +17,29 @@
       "required": true,
       "unique": true
     },
-    "subtitle": {
-      "type": "string"
-    },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
-    },
-    "scheme_template": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::scheme-template.scheme-template"
     },
     "application": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::application.application",
       "mappedBy": "scheme"
+    },
+    "scheme_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::scheme-template.scheme-template",
+      "inversedBy": "scheme"
     }
   }
 }

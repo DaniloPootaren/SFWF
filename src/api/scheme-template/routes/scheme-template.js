@@ -1,9 +1,17 @@
-'use strict';
+"use strict";
 
 /**
  * scheme-template router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::scheme-template.scheme-template');
+module.exports = {
+  routes: [
+    {
+      method: "GET",
+      path: "/scheme-templates/:schemeId",
+      handler: "scheme-template.getBySchemeId",
+    },
+  ],
+};

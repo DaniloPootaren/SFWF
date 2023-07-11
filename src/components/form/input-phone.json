@@ -1,14 +1,14 @@
 {
   "collectionName": "components_form_input_phones",
   "info": {
-    "displayName": "input-phone"
+    "displayName": "input-phone",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
       "type": "string",
-      "required": true,
-      "regex": "/^[5-9]\\d{7}$/"
+      "required": true
     }
   }
 }

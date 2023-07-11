@@ -14,7 +14,8 @@
     "@strapi/plugin-users-permissions": "4.11.4",
     "@strapi/strapi": "4.11.4",
     "better-sqlite3": "8.0.1",
-    "joi": "^17.9.2"
+    "joi": "^17.9.2",
+    "react-hook-form": "^7.45.1"
   },
   "author": {
     "name": "A Strapi developer"

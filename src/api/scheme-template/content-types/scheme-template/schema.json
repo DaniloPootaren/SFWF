@@ -19,6 +19,12 @@
     },
     "terms_and_condition": {
       "type": "richtext"
+    },
+    "scheme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::scheme.scheme",
+      "mappedBy": "scheme_template"
     }
   }
 }
